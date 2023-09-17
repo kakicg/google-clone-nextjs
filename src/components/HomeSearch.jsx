@@ -31,7 +31,7 @@ export default function HomeSearch() {
       </form>
       <div className="flex flex-col space-y-2 sm:space-y-0 sm:space-x-4 justify-center sm:flex-row mt-8">
         <button onClick={handleSubmit} className="btn">Google Search</button>
-        <button disabled={randomSearchLoading} onClick={randomSearch} className="btn flex items-center justify-center disanled:opacity-80">
+        <button disabled={randomSearchLoading} onClick={randomSearch} className="btn flex items-center justify-center disabled:opacity-80">
           {randomSearchLoading ? (
             <img src="spinner.svg" alt="loading,,," className='h-6 text-center' />
           ):"I'm Feeling Lucky"}
