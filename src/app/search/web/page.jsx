@@ -1,6 +1,5 @@
 import Link from 'next/link'
-import React from 'react'
-import WebSearchResults from '../../../components/WebSearchResults'
+import WebSearchResults from '@/components/WebSearchResults'
 
 export default async function WebSearchPage({searchParams}) {
   // await new Promise((resolve)=>setTimeout(resolve, 5000))
